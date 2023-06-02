@@ -1,0 +1,18 @@
+body {
+    height: 100vh;
+    font-family: 'Bruno Ace SC', cursive;
+    display: flex;
+    text-align: center;
+    font-size: 18px;
+    margin: 0px;
+}
+
+.left-side {
+    flex: 1;
+    background-color: green;   
+}
+
+.right-side {
+    flex: 2;
+    background-color: yellow;   
+}
