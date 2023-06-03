@@ -9,10 +9,9 @@ body {
 
 .left-side {
     flex: 1;
-    background-color: green;   
+    background-image: url("/images/bg-image.jpg"); 
 }
 
 .right-side {
-    flex: 2;
-    background-color: yellow;   
+    flex: 2; 
 }
