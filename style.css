@@ -1,10 +1,12 @@
 body {
     height: 100vh;
-    font-family: 'Bruno Ace SC', cursive;
+    font-family: 'Manjari', sans-serif;
     display: flex;
-    text-align: center;
     font-size: 18px;
     margin: 0px;
+    background-color: black;
+    padding-left: 14vw;
+    padding-right: 14vw;
 }
 
 .left-side {
@@ -14,4 +16,18 @@ body {
 
 .right-side {
     flex: 2; 
+    background-color: whitesmoke;
+}
+
+#form-middle {
+    display: flex;
+    padding: 20px 30px;
+}
+
+#left-form {
+    margin-right: 40px;
+}
+
+#form-head {
+    padding: 20px 30px;
 }
