@@ -5,8 +5,8 @@ body {
     font-size: 18px;
     margin: 0px;
     background-color: black;
-    padding-left: 14vw;
-    padding-right: 14vw;
+    padding-left: 20vw;
+    padding-right: 20vw;
 }
 
 .left-side {
@@ -19,15 +19,61 @@ body {
     background-color: whitesmoke;
 }
 
-#form-middle {
+#the-form {
+    padding: 10px 30px;
+}
+
+#form-section-1 {
     display: flex;
-    padding: 20px 30px;
+    padding-bottom: 20px;
 }
 
 #left-form {
     margin-right: 40px;
 }
 
-#form-head {
+#intro {
     padding: 20px 30px;
+}
+
+form {
+    font-size: 14px;
+}
+
+#form-section-2 {
+    display: flex;
+    padding-top: 20px;
+    flex-direction: column;
+}
+
+.upper-text {
+    font-weight: 600;
+}
+
+.lower-text {
+    font-size: 16px;
+}
+
+#submit-button {
+    background-color: #596D48;
+    border: none;
+    color: white;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: 800;
+    width: 180px;
+    border-radius: 8px;
+}
+
+a {
+    color: #596D48;
+    text-decoration: none;
+    font-weight: 800;
+}
+
+input {
+    height: 30px;
+    font-size: 16px;
+    border-radius: 4px;
+    border-color: #E5E7EB;
 }

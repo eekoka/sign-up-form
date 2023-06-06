@@ -16,36 +16,45 @@
         
     </div>
     <div class="right-side">
-        <form action="#" method="post">
-            <section id="form-head">
-                <h1>DangIt Camping Sign-up</h1>
-                <p>
-                    This is not a real camping service! You know you need something like this in your life to help you realize your deepest dreams.
-                    <br>Sign up now to get started. <br><br> You know you want to.
-                </p>
-            </section>
+        <div id="intro">
+            <h1>DangIt Camping Sign-up</h1>
+            <p class="upper-text">
+                This is not a real camping service! You know you need something like this in your life to help you realize your deepest dreams.
+                <br>Sign up now to get started. <br><br> You know you want to.
+            </p>
+        </div>
+        <div id="the-form">
+            <p class="upper-text">Let's do it!</p>
 
-            <section id="form-middle">
-                <div id="left-form">
-                    <label for="fname">FIRST NAME:</label> <br>
-                    <input type="text" id="fname" name="fname"> <br><br>
+            <form action="#" method="post">
+                <section id="form-section-1">
+                    <div id="left-form">
+                        <label for="fname">FIRST NAME:</label> <br>
+                        <input type="text" id="fname" name="fname"> <br><br>
 
-                    <label for="email">EMAIL:</label> <br>
-                    <input type="text" id="email" name="email">
-                </div>
-                <div id="right-form">
-                    <label for="lname">LAST NAME:</label> <br>
-                    <input type="text" id="lname" name="lname"><br><br>
+                        <label for="email">EMAIL:</label> <br>
+                        <input type="text" id="email" name="email"><br><br>
 
-                    <label for="phnumber">PHONE NUMBER:</label> <br>
-                    <input type="text" id="phnumber" name="phnumber">
-                </div>
-            </section>
+                        <label for="password1">PASSWORD:</label> <br>
+                        <input type="text" id="password1" name="password1">                 
+                    </div>
+                    <div id="right-form">
+                        <label for="lname">LAST NAME:</label> <br>
+                        <input type="text" id="lname" name="lname"><br><br>
 
-            <section id="form-end">
+                        <label for="phone">PHONE NUMBER:</label> <br>
+                        <input type="text" id="phone" name="phone"><br><br>
 
-            </section>
-          </form>
+                        <label for="password2">CONFIRM PASSWORD:</label> <br>
+                        <input type="text" id="password2" name="password2"> 
+                    </div>
+                </section>
+                <section id="form-section-2">
+                    <button id="submit-button" type="submit">Create Account</button>
+                    <p class="lower-text">Already have an account? <a href="#">Log in</a></p>
+                </section>
+            </form>
+        </div>
     </div>    
 </body>
 </html>
