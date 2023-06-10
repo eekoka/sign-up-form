@@ -79,6 +79,16 @@ input {
     border: 1px solid #E5E7EB;
 }
 
+input:focus {
+    border: 2px solid rgb(1, 1, 87);
+    outline: none;
+    box-shadow: 1px 1px 2px #a39d9d;
+}
+
+input:invalid {
+    border: 2px solid red;
+}
+
 #logo-div {
     background-color:#00000090;
     color: white;
