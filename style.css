@@ -80,7 +80,7 @@ input {
 }
 
 input:focus {
-    border: 2px solid rgb(1, 1, 87);
+    border: 2px solid rgb(1, 1, 116);
     outline: none;
     box-shadow: 1px 1px 2px #a39d9d;
 }
@@ -101,7 +101,17 @@ input:invalid {
 }
 
 #logo-div div {
-  font-weight: 800;
-  height: 70px;
-  font-family: 'Syne Mono', monospace;
+    font-weight: 800;
+    height: 70px;
+    font-family: 'Syne Mono', monospace;
+}
+
+.error {
+    width: 100%;
+    padding: 0;
+    font-size: 80%;
+    color: white;
+    background-color: #900;
+    border-radius: 0 0 5px 5px;
+    box-sizing: border-box;
 }

@@ -31,28 +31,34 @@
         </div>
         <div id="the-form">
             <p class="upper-text">Let's do it!</p>
-
-            <form action="#" method="post">
+            <!--novalidate deactivates the default form validation - we do form validation ourselves in js-->
+            <form action="#" method="post" novalidate>
                 <section id="form-section-1">
                     <div id="left-form">
                         <label for="fname">FIRST NAME:</label> <br>
-                        <input type="text" id="fname" name="fname"> <br><br>
+                        <input type="text" id="fname" name="fname">  <br>
+                        <span class="error fname-error" aria-live="polite"></span> <br><br>
 
                         <label for="email">EMAIL:</label> <br>
-                        <input type="text" id="email" name="email"><br><br>
+                        <input type="email" id="email" name="email"> <br>
+                        <span class="error email-error" aria-live="polite"></span><br><br>
 
                         <label for="password1">PASSWORD:</label> <br>
-                        <input type="text" id="password1" name="password1">                 
+                        <input type="text" id="password1" name="password1"> <br>
+                        <span class="error password1-error" aria-live="polite"></span>                
                     </div>
                     <div id="right-form">
                         <label for="lname">LAST NAME:</label> <br>
-                        <input type="text" id="lname" name="lname"><br><br>
+                        <input type="text" id="lname" name="lname"> <br>
+                        <span class="error lname-error" aria-live="polite"></span><br><br>
 
                         <label for="phone">PHONE NUMBER:</label> <br>
-                        <input type="text" id="phone" name="phone"><br><br>
+                        <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"> <br>
+                        <span class="error phone-error" aria-live="polite"></span><br><br>
 
                         <label for="password2">CONFIRM PASSWORD:</label> <br>
-                        <input type="text" id="password2" name="password2"> 
+                        <input type="text" id="password2" name="password2"> <br>
+                        <span class="error password2-error" aria-live="polite"></span>
                     </div>
                 </section>
                 <section id="form-section-2">
