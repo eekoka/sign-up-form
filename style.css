@@ -1,5 +1,5 @@
 body {
-    height: 100vh;
+    min-height: 100vh;
     font-family: 'Manjari', sans-serif;
     display: flex;
     font-size: 18px;
@@ -85,8 +85,9 @@ input:focus {
     box-shadow: 1px 1px 2px #a39d9d;
 }
 
-input:invalid {
+input:focus:required:invalid {
     border: 2px solid red;
+    background-color: rgb(255, 237, 237);
 }
 
 #logo-div {
@@ -110,8 +111,7 @@ input:invalid {
     width: 100%;
     padding: 0;
     font-size: 80%;
-    color: white;
-    background-color: #900;
+    color: red;
     border-radius: 0 0 5px 5px;
     box-sizing: border-box;
 }
