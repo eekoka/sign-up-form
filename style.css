@@ -11,7 +11,7 @@ body {
 
 .left-side {
     flex: 1;
-    background-image: url("/images/bg-image.jpg"); 
+    background-image: url("./images/bg-image.jpg"); 
 }
 
 .right-side {
